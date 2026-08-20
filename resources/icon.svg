@@ -1,0 +1,30 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="70" y1="48" x2="448" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B39CFF"/>
+      <stop offset="0.47" stop-color="#8262F2"/>
+      <stop offset="1" stop-color="#4D30B8"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="166" y1="151" x2="346" y2="366" gradientUnits="userSpaceOnUse">
+      <stop stop-color="white" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="white" stop-opacity="0.08"/>
+    </linearGradient>
+    <filter id="shadow" x="76" y="92" width="360" height="350" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#2D176F" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+  <rect x="22" y="22" width="468" height="468" rx="122" fill="url(#bg)"/>
+  <path d="M52 205C98 112 179 63 295 59C374 56 431 92 476 145V73C476 46.49 454.51 25 428 25H84C51.49 25 25 51.49 25 84V341C27 291 36 238 52 205Z" fill="white" fill-opacity="0.08"/>
+  <g filter="url(#shadow)">
+    <rect x="122" y="137" width="268" height="250" rx="82" fill="#171528" fill-opacity="0.92"/>
+    <rect x="137" y="152" width="238" height="220" rx="68" fill="url(#glass)" stroke="white" stroke-opacity="0.14" stroke-width="3"/>
+    <path d="M184 151L154 103" stroke="white" stroke-width="22" stroke-linecap="round"/>
+    <path d="M328 151L358 103" stroke="white" stroke-width="22" stroke-linecap="round"/>
+    <rect x="174" y="211" width="164" height="105" rx="42" fill="#131221" fill-opacity="0.74" stroke="white" stroke-opacity="0.13" stroke-width="3"/>
+    <circle cx="218" cy="260" r="15" fill="#5BE8E1"/>
+    <circle cx="294" cy="260" r="15" fill="#5BE8E1"/>
+    <path d="M219 301C241 316 271 316 293 301" stroke="white" stroke-width="10" stroke-linecap="round"/>
+    <path d="M123 247H91C78.85 247 69 256.85 69 269V285C69 297.15 78.85 307 91 307H123" stroke="white" stroke-width="19" stroke-linecap="round"/>
+    <path d="M389 247H421C433.15 247 443 256.85 443 269V285C443 297.15 433.15 307 421 307H389" stroke="white" stroke-width="19" stroke-linecap="round"/>
+  </g>
+</svg>
